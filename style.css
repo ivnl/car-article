@@ -36,7 +36,6 @@ footer {
     color: white;
     text-align: right;
     background-color: black;
-    margin:auto;
 }
 
 .hnav {
@@ -64,62 +63,63 @@ footer {
 }
 
 #main {
-    position:fixed;
+    position: fixed;
     margin: 0 auto;
     width: 100%;
     height: 100%;
-    padding:auto;
+    padding: auto;
+    text-align: center;
 }
 
 #main div {
-        display: inline-block;
+    display: inline-block;
 }
 
 #img1 {
     width: 33%;
     height: 33%;
-    background-size:100%;
-    background-repeat:no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url("http://bestcarmag.com/sites/default/files/44850962015-subaru-brz-2.jpg");
 }
 
 #img2 {
     width: 33%;
     height: 33%;
-    background-size:100%;
-    background-repeat:no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url("http://pictures.topspeed.com/IMG/crop/201308/subaru-brz_1600x0w.jpg");
 }
 
 #img3 {
     width: 33%;
     height: 33%;
-    background-size:100%;
-    background-repeat:no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url("http://s.images.boldride.com/subaru/2013/subaru-brz.2000x1333.Mar-22-2012_14.16.10.552721.jpg");
 }
 
 #img4 {
     width: 33%;
     height: 33%;
-    background-size:100%;
-    background-repeat:no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url("http://pictures.dealer.com/l/lynnessubarusoa/1841/6a649a614a4ff8770f1bc48e6fd093f0x.jpg");
 }
 
 #img5 {
     width: 33%;
     height: 33%;
-    background-size:100%;
-    background-repeat:no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url("http://assets.passionperformance.ca/photos/7/6/76542_2016_subaru_BRZ.jpg");
 }
 
 #img6 {
     width: 33%;
     height: 33%;
-    background-size:100%;
-    background-repeat:no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url("http://driveredlinejdm.files.wordpress.com/2014/05/2015-scion-fr-s-series-10-photo-591449-s-1280x782.jpg");
 }
 
@@ -145,7 +145,24 @@ footer {
 #left {
     float: left;
     width: 60%;
+}
 
+#left3 {
+    background-color: orange;
+    float: left;
+    width: 33.3%;
+}
+
+#center {
+    background-color: lightblue;
+    float: left;
+    width: 33.3%;
+}
+
+#right3 {
+    background-color: pink;
+    float: left;
+    width: 33.3%;
 }
 
 #left-inner {
@@ -158,7 +175,6 @@ footer {
     padding-top: 100px;
     float: left;
     width: 40%;
-
 }
 
 #right-inner {
